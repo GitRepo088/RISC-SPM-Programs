@@ -1,6 +1,5 @@
 # RISC-SPM-Programs
 ## Group 5: Khanh(L), Hung, and Hieu.
-## Instructor: Dr. Vo Le Cuong.
 ## This repository contains the source code of RISC-SPM architecture.
 
 ### The RISC-SPM Architecture:
