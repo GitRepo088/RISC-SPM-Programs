@@ -3,6 +3,10 @@
 ## Instructor: Dr. Vo Le Cuong.
 ## This repository contains the source code of RISC-SPM architecture.
 
+### The RISC-SPM Architecture:
+
+![Alt text]
+
 3 main blocks in RISC-SPM: Controller, Processor, and Memory.
 
 ### I. RISC-SPM Processor
