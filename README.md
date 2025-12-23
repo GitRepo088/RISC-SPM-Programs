@@ -5,9 +5,9 @@
 
 ### The RISC-SPM Architecture:
 
-![Alt text]
+![Alt text](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/risc_spm_diagram.png)
 
-3 main blocks in RISC-SPM: Controller, Processor, and Memory.
+### There are 3 main blocks in RISC-SPM: Controller, Processor, and Memory.
 
 ### I. RISC-SPM Processor
 
