@@ -13,19 +13,31 @@
 
 1. The program of R0, R1, R2, R3 is [register_unit.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/register_unit.v)
 
-2. The program of Reg_Z is           [register_z.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/register_z.v)
+2. The testbench of Register Unit, Instruction Register, and Address Register are the same [tb_register.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/tb_register.v)
 
-3. The program of Program Counter is [program_counter.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/program_counter.v)
+3. The program of Reg_Z is           [register_z.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/register_z.v)
 
-4. The program of Mux3to1 is         [mux_3to1.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/mux_3to1.v)
+4. The testbench of Register Z is [tb_reg_z.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/tb_reg_z.v)
 
-5. The program of Mux5to1 is         [mux_5to1.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/mux_5to1.v)
+5. The program of Program Counter is [program_counter.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/program_counter.v)
 
-6. The program of Instruction Register is [instruction_register.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/instruction_register.v)
+6. The testbench of Program Counter is [tb_PC.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/tb_PC.v)
 
-7. The program of Address Register is [address_register.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/address_register.v)
+7. The program of Mux3to1 is         [mux_3to1.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/mux_3to1.v)
 
-8. The program of ALU is [ALU_RISC.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/ALU_RISC.v)
+8. The testbench of Mux3to1 is [tb_Mux3to1.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/tb_Mux3to1.v)
+
+9. The program of Mux5to1 is         [mux_5to1.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/mux_5to1.v)
+
+10. The testbench of Mux5to1 is [tb_mux5to1.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/mux_5to1.v)
+
+11. The program of Instruction Register is [instruction_register.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/instruction_register.v)
+
+12. The program of Address Register is [address_register.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/address_register.v)
+
+13. The program of ALU is [ALU_RISC.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/ALU_RISC.v)
+
+14. The testbench of ALU is [tb_ALU.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/tb_ALU.v)
 
 The full program of RISC-SPM Processor is [Complete_Processor.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/Complete_Processor.v)
 
@@ -33,6 +45,8 @@ The full program of RISC-SPM Processor is [Complete_Processor.v](https://github.
 The program of Controller is [control_unit.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/control_unit.v#L7)
 ### III. RISC-SPM Memory
 The program of Memory is [memory_unit.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/memory_unit.v)
+
+The testbench for Memory is [tb_Memory.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/tb_Memory.v)
 
 #### The full design of RISC-SPM is [RISC-SPM.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/RISC-SPM.v)
 #### The testbench for RISC-SPM is [RISC_SPM_TB_1](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/RISC_SPM_TB_1.v) with the clock unit [Clock_Unit.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/Clock_Unit.v)
