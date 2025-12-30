@@ -35,3 +35,11 @@ The program of Memory is [memory_unit.v](https://github.com/GitRepo088/RISC-SPM-
 
 #### The full design of RISC-SPM is [RISC-SPM.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/RISC-SPM.v)
 #### The testbench for RISC-SPM is [RISC_SPM_TB_1](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/RISC_SPM_TB_1.v) with the clock unit [Clock_Unit.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/Clock_Unit.v)
+### IV. FPGA Deployment
+We will use the Terasic DE10-Lite FPGA for this project.
+
+We need to modify our Memory_Unit.v to the [fpga_memory.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/fpga_memory.v).
+
+We need to add a 7-segment Hex decoder to our project [Hex7Seg](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/Hex7Seg.v)
+
+The final program loaded to the FPGA is [DE10_Lite_RISC_Wrapper.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/DE10_Lite_RISC_Wrapper.v).
