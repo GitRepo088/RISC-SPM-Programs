@@ -38,8 +38,24 @@ The program of Memory is [memory_unit.v](https://github.com/GitRepo088/RISC-SPM-
 ### IV. FPGA Deployment
 We will use the Terasic DE10-Lite FPGA for this project.
 
+Here is the Memory that we will implement on DE10-Lite board
+
+![Alt text](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/fpga_implementation.png)
+
+On the FPGA, we need to see the output as shown below
+
+![Alt text](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/what_we_implement.png)
+
+Make sure you have to assign the right pin planner shown below
+
+![Alt text](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/pin_planner1.png)
+
+![Alt text](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/pin_planner2.png)
+
+![Alt text](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/pin_planner3.png)
+
 We need to modify our Memory_Unit.v to the [fpga_memory.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/fpga_memory.v).
 
-We need to add a 7-segment Hex decoder to our project [Hex7Seg](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/Hex7Seg.v)
+We need to add a 7-segment Hex decoder to our project [Hex7Seg.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/Hex7Seg.v)
 
 The final program loaded to the FPGA is [DE10_Lite_RISC_Wrapper.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/DE10_Lite_RISC_Wrapper.v).
