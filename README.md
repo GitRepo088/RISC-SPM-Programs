@@ -50,6 +50,10 @@ The testbench for Memory is [tb_Memory.v](https://github.com/GitRepo088/RISC-SPM
 
 #### The full design of RISC-SPM is [RISC-SPM.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/RISC-SPM.v)
 #### The testbench for RISC-SPM is [RISC_SPM_TB_1](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/RISC_SPM_TB_1.v) with the clock unit [Clock_Unit.v](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/Clock_Unit.v)
+#### The waveform for the full RISC-SPM is
+
+![Alt text](https://github.com/GitRepo088/RISC-SPM-Programs/blob/main/tb_RISC_SPM.png)
+
 ### IV. FPGA Deployment
 We will use the Terasic DE10-Lite FPGA for this project.
 
